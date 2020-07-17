@@ -16,10 +16,18 @@
       transition: 
         background-color .2s ease-in-out, 
         color .2s ease-in-out;
+      @include mq {
+        flex-basis: 100px;
+      }
     }
     &-link:hover {
       color: $white;
       background-color: $color-secondary;
+    }
+    @include mq {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
     }
   }
   
