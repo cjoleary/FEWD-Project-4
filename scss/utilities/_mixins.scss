@@ -3,7 +3,7 @@
 // =========================================
 
 // Images
-@mixin img-display ($margin-top: null, $max-width: null) {
+@mixin display ($margin-top: null, $max-width: null) {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -19,5 +19,12 @@
         background-color: lighten($clr, 15%);
         transition: background-color .75s;
         cursor: pointer;
+    }
+}
+
+// Media Queries
+@mixin mq {
+    @media (min-width: 768px){
+        @content
     }
 }
