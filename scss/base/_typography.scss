@@ -20,14 +20,15 @@ a {
 //  Typography
 // =========================================
 
-.headline-primary {
-    color: $color-secondary;
-    margin-left: 10px;
-}
-  
-.headline-secondary {
-    font-weight: 300;
-    color: $color-text;
+.headline {
+    &-primary {
+        color: $color-secondary;
+        margin-left: 10px;
+    }
+    &-secondary {
+        font-weight: 300;
+        color: $color-text;
+    }
 }
   
 .link {
