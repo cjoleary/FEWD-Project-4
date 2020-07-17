@@ -2,33 +2,40 @@
 //  Buttons
 // =========================================
 
-.btn {
+%btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $white;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
   }
-  
-  .default {
+
+.btn {
+  &-default {
+    @extend %btn;
     background-color: $color-primary;
   }
   
-  .error {
+  &-error {
+    @extend %btn;
     background-color: $color-error;
   }
   
-  .info {
+  &-info {
+    @extend %btn;
     background-color: $color-info;
   }
   
-  .success {
+  &-success {
+    @extend %btn;
     background-color: $color-success;
   }
   
-  .warning {
+  &-warning {
+    @extend %btn;
     background-color: $color-warning;
   }
+}
   
