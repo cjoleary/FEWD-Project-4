@@ -483,6 +483,8 @@ a {
 
 .btn-default:hover {
   background-color: #9cecfd;
+  cursor: pointer;
+  transition: 'background-color' .5s;
 }
 
 .btn-error {
@@ -491,6 +493,8 @@ a {
 
 .btn-error:hover {
   background-color: #f1b5b8;
+  cursor: pointer;
+  transition: 'background-color' .5s;
 }
 
 .btn-info {
@@ -499,6 +503,8 @@ a {
 
 .btn-info:hover {
   background-color: #bdafd9;
+  cursor: pointer;
+  transition: 'background-color' .5s;
 }
 
 .btn-success {
@@ -507,6 +513,8 @@ a {
 
 .btn-success:hover {
   background-color: #9ddfb0;
+  cursor: pointer;
+  transition: 'background-color' .5s;
 }
 
 .btn-warning {
@@ -515,6 +523,8 @@ a {
 
 .btn-warning:hover {
   background-color: #feb4a2;
+  cursor: pointer;
+  transition: 'background-color' .5s;
 }
 
 .form {
