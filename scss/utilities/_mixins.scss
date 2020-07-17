@@ -2,10 +2,22 @@
 //  Mixins
 // =========================================
 
+// Images
 @mixin img-display ($margin-top: null, $max-width: null) {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: $margin-top;
     max-width: $max-width; 
+}
+
+// Buttons
+@mixin buttons($clr) {
+    background-color: $clr;
+
+    &:hover {
+        background-color: lighten($clr, 15%)
+        cursor: pointer;
+        // transition: 'background-color' .5s;
+    }
 }
