@@ -15,58 +15,26 @@
 .btn {
   &-default {
     @extend %btn;
-    background-color: $color-primary;
+    @include buttons($color-primary);
   }
   
   &-error {
     @extend %btn;
-    background-color: $color-error;
+    @include buttons($color-error);
   }
   
   &-info {
     @extend %btn;
-    background-color: $color-info;
+    @include buttons($color-info);
   }
   
   &-success {
     @extend %btn;
-    background-color: $color-success;
+    @include buttons($color-success);
   }
   
   &-warning {
     @extend %btn;
-    background-color: $color-warning;
-  }
-}
-
-.btn {
-  &-default:hover {
-    @extend %btn;
-    background-color: $color-primary-light;
-    transition: background-color .5s;
-  }
-  
-  &-error:hover {
-    @extend %btn;
-    background-color: $color-error-light;
-    transition: background-color .5s;
-  }
-  
-  &-info:hover {
-    @extend %btn;
-    background-color: $color-info-light;
-    transition: background-color .5s;
-  }
-  
-  &-success:hover {
-    @extend %btn;
-    background-color: $color-success-light;
-    transition: background-color .5s;
-  }
-  
-  &-warning:hover {
-    @extend %btn;
-    background-color: $color-warning-light;
-    transition: background-color .75s;
+    @include buttons($color-warning);
   }
 }
