@@ -17,7 +17,7 @@
 
     &:hover {
         background-color: lighten($clr, 15%);
-        cursor: pointer;
         transition: 'background-color' .75s;
+        cursor: pointer;
     }
 }

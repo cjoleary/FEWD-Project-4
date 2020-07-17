@@ -467,7 +467,7 @@ a {
   background-color: #58e1c1;
 }
 
-.btn-default, .btn-error, .btn-info, .btn-success, .btn-warning {
+.btn {
   margin-top: 15px;
   width: 100%;
   color: #fff;
@@ -477,54 +477,54 @@ a {
   border-radius: 5px;
 }
 
-.btn-default {
+.default {
   background-color: #51ddfc;
 }
 
-.btn-default:hover {
+.default:hover {
   background-color: #9cecfd;
-  cursor: pointer;
   transition: 'background-color' .75s;
+  cursor: pointer;
 }
 
-.btn-error {
+.error {
   background-color: #e4757a;
 }
 
-.btn-error:hover {
+.error:hover {
   background-color: #f1b5b8;
-  cursor: pointer;
   transition: 'background-color' .75s;
+  cursor: pointer;
 }
 
-.btn-info {
+.info {
   background-color: #927bc1;
 }
 
-.btn-info:hover {
+.info:hover {
   background-color: #bdafd9;
-  cursor: pointer;
   transition: 'background-color' .75s;
+  cursor: pointer;
 }
 
-.btn-success {
+.success {
   background-color: #63cc82;
 }
 
-.btn-success:hover {
+.success:hover {
   background-color: #9ddfb0;
-  cursor: pointer;
   transition: 'background-color' .75s;
+  cursor: pointer;
 }
 
-.btn-warning {
+.warning {
   background-color: #fd7856;
 }
 
-.btn-warning:hover {
+.warning:hover {
   background-color: #feb4a2;
-  cursor: pointer;
   transition: 'background-color' .75s;
+  cursor: pointer;
 }
 
 .form {

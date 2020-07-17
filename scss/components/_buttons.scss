@@ -2,7 +2,7 @@
 //  Buttons
 // =========================================
 
-%btn {
+.btn {
     margin-top: 15px;
     width: 100%;
     color: $white;
@@ -12,29 +12,22 @@
     border-radius: 5px;
   }
 
-.btn {
-  &-default {
-    @extend %btn;
+.default {
     @include buttons($color-primary);
   }
   
-  &-error {
-    @extend %btn;
+.error {
     @include buttons($color-error);
   }
   
-  &-info {
-    @extend %btn;
+.info {
     @include buttons($color-info);
   }
   
-  &-success {
-    @extend %btn;
+.success {
     @include buttons($color-success);
   }
   
-  &-warning {
-    @extend %btn;
+.warning {
     @include buttons($color-warning);
   }
-}
