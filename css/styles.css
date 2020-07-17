@@ -467,7 +467,7 @@ a {
   background-color: #58e1c1;
 }
 
-.btn {
+.btn-default, .btn-error, .btn-info, .btn-success, .btn-warning {
   margin-top: 15px;
   width: 100%;
   color: #fff;
@@ -477,23 +477,23 @@ a {
   border-radius: 5px;
 }
 
-.default {
+.btn-default {
   background-color: #51ddfc;
 }
 
-.error {
+.btn-error {
   background-color: #e4757a;
 }
 
-.info {
+.btn-info {
   background-color: #927bc1;
 }
 
-.success {
+.btn-success {
   background-color: #63cc82;
 }
 
-.warning {
+.btn-warning {
   background-color: #fd7856;
 }
 
