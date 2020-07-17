@@ -371,10 +371,6 @@ template {
   display: none;
 }
 
-/* // =========================================
-//  Base Styles
-// ========================================= */
-
 /* line 5, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/base/_base.scss */
 * {
   font-family: "Lato", sans-serif;
@@ -391,10 +387,6 @@ p {
 a {
   text-decoration: none;
 }
-
-/* // =========================================
-//  Typography
-// ========================================= */
 
 /* line 6, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/base/_typography.scss */
 .headline-primary {
@@ -424,10 +416,6 @@ a {
   border-left: 8px solid #58e1c1;
   border-radius: 5px;
 }
-
-/* // =========================================
-//  Grid System
-// ========================================= */
 
 /* line 5, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
 .container {
@@ -493,158 +481,154 @@ a {
   }
 }
 
-/* line 48, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-1 {
+/* line 49, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-1.theme {
   background-color: #927bc1;
 }
 
 @media (min-width: 768px) {
   /* line 48, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-1 {
+  .col-1 {
     flex-basis: 8.33%;
   }
 }
 
-/* line 55, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-2 {
+/* line 58, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-2.theme {
   background-color: #fd7856;
 }
 
 @media (min-width: 768px) {
-  /* line 55, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-2 {
+  /* line 57, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-2 {
     flex-basis: 16.67%;
   }
 }
 
-/* line 62, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-3 {
+/* line 67, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-3.theme {
   background-color: #deb2ee;
 }
 
 @media (min-width: 768px) {
-  /* line 62, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-3 {
+  /* line 66, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-3 {
     flex-basis: 25.00%;
   }
 }
 
-/* line 69, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-4 {
+/* line 76, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-4.theme {
   background-color: #7ee6fd;
 }
 
 @media (min-width: 768px) {
-  /* line 69, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-4 {
+  /* line 75, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-4 {
     flex-basis: 33.33%;
   }
 }
 
-/* line 76, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-5 {
+/* line 85, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-5.theme {
   background-color: #88d9a0;
 }
 
 @media (min-width: 768px) {
-  /* line 76, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-5 {
+  /* line 84, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-5 {
     flex-basis: 41.67%;
   }
 }
 
-/* line 83, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-6 {
+/* line 94, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-6.theme {
   background-color: #4da2bb;
 }
 
 @media (min-width: 768px) {
-  /* line 83, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-6 {
+  /* line 93, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-6 {
     flex-basis: 50.00%;
   }
 }
 
-/* line 90, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-7 {
+/* line 103, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-7.theme {
   background-color: #ec9fa3;
 }
 
 @media (min-width: 768px) {
-  /* line 90, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-7 {
+  /* line 102, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-7 {
     flex-basis: 58.33%;
   }
 }
 
-/* line 97, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-8 {
+/* line 112, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-8.theme {
   background-color: #fd9f85;
 }
 
 @media (min-width: 768px) {
-  /* line 97, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-8 {
+  /* line 111, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-8 {
     flex-basis: 66.67%;
   }
 }
 
-/* line 104, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-9 {
+/* line 121, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-9.theme {
   background-color: #e4757a;
 }
 
 @media (min-width: 768px) {
-  /* line 104, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-9 {
+  /* line 120, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-9 {
     flex-basis: 75.00%;
   }
 }
 
-/* line 111, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-10 {
+/* line 130, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-10.theme {
   background-color: #63cc82;
 }
 
 @media (min-width: 768px) {
-  /* line 111, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-10 {
+  /* line 129, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-10 {
     flex-basis: 83.33%;
   }
 }
 
-/* line 118, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-11 {
+/* line 139, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-11.theme {
   background-color: #51ddfc;
 }
 
 @media (min-width: 768px) {
-  /* line 118, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-11 {
+  /* line 138, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-11 {
     flex-basis: 91.67%;
   }
 }
 
-/* line 125, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-.theme.col-12 {
+/* line 148, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+.col-12.theme {
   background-color: #80e8d1;
 }
 
 @media (min-width: 768px) {
-  /* line 125, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
-  .theme.col-12 {
+  /* line 147, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+  .col-12 {
     flex-basis: 100%;
   }
 }
 
-/* line 132, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
+/* line 156, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_grid.scss */
 .card {
   flex-basis: 100%;
 }
-
-/* // =========================================
-//  Navigation
-// ========================================= */
 
 /* line 5, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_navigation.scss */
 .nav {
@@ -685,10 +669,6 @@ a {
     align-items: center;
   }
 }
-
-/* // =========================================
-//  Buttons
-// ========================================= */
 
 /* line 5, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_buttons.scss */
 .btn {
@@ -775,10 +755,6 @@ a {
   cursor: pointer;
 }
 
-/* // =========================================
-//  Forms
-// ========================================= */
-
 /* line 5, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_form.scss */
 .form {
   flex-basis: 100%;
@@ -803,10 +779,6 @@ a {
   height: 1px;
   overflow: hidden;
 }
-
-/* // =========================================
-// Images
-// ========================================= */
 
 /* line 6, ../../../../../../../../../../../../../Users/cjolearyjr/Desktop/Treehouse/Project Files/FEWD-Project-4/scss/components/_images.scss */
 .img-avatar {
