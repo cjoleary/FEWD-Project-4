@@ -2,8 +2,10 @@
 //  Mixins
 // =========================================
 
-@mixin img-display {
+@mixin img-display ($margin-top: null, $max-width: null) {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: $margin-top;
+    max-width: $max-width; 
 }
