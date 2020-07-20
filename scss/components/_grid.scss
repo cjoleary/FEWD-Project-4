@@ -137,7 +137,7 @@
   
   .col-11 {
     &.theme {
-      background-color: #51ddfc;
+      background-color: $color-primary;
     }
     @include mq {
       flex-basis: 91.67%;
