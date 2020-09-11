@@ -24,7 +24,7 @@
 
 // Media Queries
 @mixin mq {
-    @media (min-width: 768px){
+    @media (min-width: $breakpoint){
         @content
     }
 }
